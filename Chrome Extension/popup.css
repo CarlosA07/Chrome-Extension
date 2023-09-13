@@ -1,0 +1,58 @@
+.popup-container{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(248, 233, 188);
+    overflow: auto;
+}
+
+.text-input{
+    width: 200px;
+    height:  25px;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 5px 5px;
+    border-radius: 30px;
+}
+
+.text-button{
+    width: 50px;
+    height: 25px;
+}
+
+.status{
+    display: flex;
+    flex-direction: row;
+}
+
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city-name{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.weather-icon{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temp{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.info{
+    font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side-info{
+    font-size: 15px;
+}

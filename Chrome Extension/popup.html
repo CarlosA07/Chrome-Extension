@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <title>Weather Extension</title>
+</head>
+<body class="popup-container">
+    <h1>Weather Extension</h1>
+    <div class = "input">
+        <input type = "text" class="text-input" id = "weather-input" placeholder="Enter city for weather" spellcheck="false">
+        <button class="text-button" id="weather-button">Enter</button>
+    </div>
+    <div class="weather-card">
+        <p class="city-name" id="city">City Name</p>
+            <img class="weather-icon" id="weather-icon" src="https://openweathermap.org/img/wn/04d@2x.png" alt="weather icon">
+            <p id="icon-text" class="info">Unknown</p>
+        <p class="temp" id="temperature">0°</p>
+    </div>
+        <p class="side-info" id="humidity">Humidity: 0%</p>
+        <p class="side-info" id="wind">Wind: 0 mph</p>
+    <script src="weather.js"></script>
+</body>
+</html>
